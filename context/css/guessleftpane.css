@@ -1,0 +1,54 @@
+.leftpane {
+    width: 30%;
+    /*border-right: 1px solid #ccc;*/
+    height: 100%;
+    overflow-y: scroll;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sideline {
+    width: calc(100% - 1px);
+    height: 100%;
+    border-right: 1px solid #ccc;
+}
+
+
+
+.leftpane .time, .leftpane .league {
+    text-align: center;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+    .leftpane .time a, .leftpane .league a {
+        height: 5em;
+        border-bottom: solid 1px #ccc;
+        background-color: #f3f3f3;
+        position: relative;
+        border-right: 1px solid #ccc;
+    }
+
+        .leftpane .time .select, .leftpane .league a.select {
+            color: #ff5b06;
+            background-color: #fff;
+            border-right: none;
+        }
+    /*.leftpane .time .select:after,.leftpane .league a.select:after{
+	position: absolute;
+    content:"";
+    right:0px;
+    width: 0px;
+    top: 0;
+    bottom: 0;
+    border-left: solid 4px #0f0;
+    height: 5em;
+    z-index: 5;
+}*/
+    .leftpane .time .timeitem span:first-child {
+        display: block;
+    }
+
+    .leftpane .league .leagueitem span.name {
+        max-width: 73%;
+    }

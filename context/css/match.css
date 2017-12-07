@@ -1,0 +1,58 @@
+.match {
+    /*margin-top: 109px;*/
+    height: calc(100% - 109px);
+    overflow: scroll;
+}
+
+    .match .oddtitle span {
+        font-size: 12px;
+    }
+
+        .match .oddtitle span:first-child {
+            color: #444;
+            font-weight: bold;
+        }
+
+    .match .odditem {
+        border-bottom: solid 1px #CCCCCC;
+        font-size: 14px;
+    }
+
+   .match .odditem .letball{
+       float: left;
+       max-width: 60%;
+       font-weight: normal;
+   } 
+
+
+
+@media only screen and (min-width: 100px) and (max-width: 320px) {
+    .match .odditem {
+        font-size: 12px;
+    }
+}
+
+.match .odditem a:last-child span {
+    border-right-width: 0px;
+}
+
+.match .fourBall {
+    display: block;
+    width: 70% !important;
+    text-indent: 5px;
+    /*float: left;*/
+}
+
+.notice {
+    height: 2.8em;
+    line-height: 2.8em;
+    font-size: 1.2em;
+}
+
+#match {
+    z-index: 1;
+}
+
+.shadow {
+    z-index: 99;
+}

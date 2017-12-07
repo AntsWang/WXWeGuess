@@ -1,0 +1,169 @@
+.betfail, .betfail .message, .betsuccess, .loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+    .betfail .messagepane {
+        height: 13em;
+        width: 22em;
+        margin: auto;
+        border: solid 1px #CCCCCC;
+        background-color: #FFFFFF;
+        border-radius: 1em;
+        text-align: center;
+    }
+
+.matchitem .event {
+    font-size: 14px;
+}
+
+.betfail .messagetitle, .betsuccess .messagetitle {
+    position: relative;
+    height: 35px;
+    border-bottom: solid 1px #cccccc;
+    background-color: #f7f7f7;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.betfail .messagetitle span, .betsuccess .messagetitle span{
+	margin-left: 1.5em;
+}
+
+    .betfail .messagetitle span, .betfail .messagebtn span, .betsuccess .messagetitle span {
+        line-height: 2.5em;
+        font-size: 1.2em;
+    }
+
+    .betfail .messagetitle span {
+        margin-left: 26px;
+    }
+
+.betfail .message {
+    padding: 5px;
+    height: 74px;
+    border-bottom: 1px solid #ccc;
+}
+
+.betfail .twoDiv span {
+    float: none;
+}
+
+.betfail .messagebtn {
+    height: 36px;
+}
+
+.publishfooter{
+	height:36px;
+	line-height: 36px;
+	border-top: 1px solid #ccc;
+}
+.publishfooter a:first-child{
+	    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+}
+.publishfooter a:last-child{
+	   color:#ff5b06;
+}
+
+    .betfail .messagebtn a, .betsuccess .messagefooter {
+        height: 36px;
+    }
+
+    .betfail .messagebtn a:first-child:after {
+        content: "";
+        float: right;
+        height: 100%;
+        border-right: solid 1px #CCCCCC;
+    }
+.matchitem.textindent {
+    padding: 5px 0;
+}
+.betsuccess .successpane {
+    max-height: 25em;
+    width: 95%;
+    margin: auto;
+    border: solid 1px #CCCCCC;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.successpane .textindent {
+    text-indent: 12px;
+}
+
+.betsuccess .matchlist {
+    max-height: 16em;
+    text-align: left;
+    /*border-bottom: solid 1px #cccccc;*/
+    overflow-y: scroll;
+}
+.betsuccess .matchlist .bgColor{
+	border-top: 1px solid #ccc;
+    background: #f7f7f7;
+    border-radius: 0 0 10px 10px;
+    
+}
+.betsuccess .matchitem > span {
+    display: block;
+    line-height: 28px;
+}
+
+.betsuccess .matchitem span.wteaml {
+    width: 48.5%;
+}
+.betsuccess .matchitem span.wteamr {
+    width: 48.5%;
+    float: right;
+}
+
+.betsuccess .matchitem .back {
+    font-weight: 500;
+}
+
+.betsuccess .messagefooter > span {
+    max-width: 50%;
+    line-height: 3em;
+}
+
+    .betsuccess .messagefooter > span:last-child {
+        margin-right: 1em;
+    }
+
+.leagueinfo {
+    text-align: right;
+    margin-top: -30px;
+    margin-right: 1em;
+}
+
+.loading_cont {
+    width: 120px;
+    height: 120px;
+}
+
+    .loading_cont .blue {
+        margin-top: -68px;
+        background: rgba(0, 0, 0, 0);
+    }
+
+.loading img {
+    background-color: #fff;
+    /*border: 1px solid #ddd;*/
+    border-radius: 10px;
+    width: 80px;
+    padding: 17px;
+    margin-top: calc(50% - 55px);
+}
+
+
+
+
+.loading span {
+    display: block;
+    width: 6em;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+}

@@ -1,0 +1,319 @@
+#betspage {
+    height: 100%;
+}
+
+.betlist {
+    background-color: rgb(240, 239, 245);
+}
+
+
+.betid {
+    margin-left: -6px;
+}
+
+.betlist .betlistpane {
+    border: solid 1px #CCCCCC;
+    margin: 5px;
+    background-color: white;
+}
+
+.datelist .datelistpane {
+    border-bottom: solid 1px #CCCCCC;
+    display: block;
+    vertical-align: middle;
+    line-height: 50px;
+    text-indent: 10px;
+}
+
+    .datelist .datelistpane:nth-child(even) {
+        background-color: rgb(247,247,247);
+    }
+
+    .datelist .datelistpane:nth-child(odd) {
+        background-color: white;
+    }
+
+    .datelist .datelistpane .date_date {
+        text-align: left;
+        width: 40%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .datelist .datelistpane .date_count {
+        margin-right: 20px;
+        width: 49%;
+        text-align: right;
+        display: inline-block;
+    }
+
+        .datelist .datelistpane .date_count.count_plus {
+            color: red;
+        }
+
+        .datelist .datelistpane .date_count.count_minus {
+            color: #11c511;
+        }
+
+        .datelist .datelistpane .date_count .date_arrow {
+            display: inline-block;
+            line-height: 13px;
+            width: 10px;
+            height: 10px;
+            transform: rotate(-45deg);
+            border-bottom: 1px solid rgb(130,130,130);
+            border-right: 1px solid rgb(130,130,130);
+            margin-left: 10px;
+        }
+
+
+
+.datelist {
+    display: inline-block;
+    width: 100%;
+}
+
+.betlist {
+    height: calc(100% - 45px);
+    overflow-y: scroll;
+}
+
+    .betlist .betlistpane .listinfo {
+        position: relative;
+        /*height: 6em;*/
+    }
+     .betlist .betlistpane .listinfo {
+        position: relative;
+        /*height: 6em;*/
+    }
+    .betlist .betlistpane .listfooter {
+        height: 3em;
+        line-height: 3em;
+        background-color: #f2f2f2;
+        border-top: solid 1px #CCCCCC;
+    }
+
+    .betlist .betlistpane .listinfo .span1 {
+        padding-top: 5px;
+        font-size: 12px;
+        padding-left: 5px;
+    }
+
+    .betlist .betlistpane .listinfo .span2 {
+        
+        text-align: right;
+        padding-right: 5px;
+    }
+
+    .betlist .betlistpane .listinfo .bet_leftpane, .betlist .betlistpane .listinfo .bet_rightpane {
+        display: inline-block;
+        height: 100%;
+        vertical-align: top;
+    }
+
+    .betlist .betlistpane .listinfo .bet_leftpane {
+        width: calc(100% - 55px);
+    }
+
+    .betlist .betlistpane .listinfo .bet_rightpane {
+        width: 50px;
+        text-align: right;
+    }
+
+    .betlist .betlistpane .listinfo .span4 {
+        width: 70%;
+    }
+
+        .betlist .betlistpane .listinfo .span4 span {
+            width: 33%;
+            float: left;
+        }
+
+    .betlist .betlistpane .listinfo .span5 {
+        text-align: right;
+        max-width: 8.4em;
+        max-width: calc(30% - 1em);
+        max-width: -webkit-calc(30% - 1em);
+        max-width: -moz-calc(30% - 1em);
+        margin-right: 1em;
+    }
+
+    .betlist .status {
+        position: absolute;
+        display: block;
+        top: 0.4em;
+        right: 0px;
+        width: 4em;
+        text-align: center;
+        border-bottom-left-radius: 0.5em;
+        border-top-left-radius: 0.5em;
+        color: #ffffff;
+        line-height: 1.6em;
+        background-color: #008c3e;
+    }
+
+    .betlist .waitstatus {
+        background-color: #1360a4;
+    }
+
+    .betlist .losestatus {
+        background-color: #b40001;
+    }
+
+    .betlist .winstatus {
+        background-color: #008c3e;
+    }
+
+    .betlist .tiestatus {
+        background-color: #808080;
+    }
+
+    .betlist .cancelstatus {
+        background-color: #333333;
+    }
+
+    .betlist .listfooter .floatright {
+        max-width: 14.6em;
+        max-width: calc(50% - 1em);
+        max-width: -webkit-calc(50% - 1em);
+        max-width: -moz-calc(50% - 1em);
+        margin-right: 1em;
+    }
+
+.betlist {
+}
+
+#betlist-tabs {
+    width: 100%;
+    height: 44px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab {
+    cursor: pointer;
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 43px;
+    font-size: 14px;
+}
+
+.tab_text {
+    display: inline-block;
+    height: 42px;
+    padding: 0 10px;
+}
+
+.tabselected .tab_text {
+    color: rgb(59, 102, 180);
+    border-bottom: 2px solid rgb(59, 102, 180);
+    font-weight: bold;
+}
+
+.subbet {
+    padding-left: 10px;
+}
+
+.subbets {
+    padding: 0 5px;
+}
+
+    .subbets .subbet-item {
+    }
+
+
+.subbet_pos {
+    font-size: 14px;
+    height: 45px;
+    line-height: 45px;
+}
+
+    .subbet_pos p {
+        margin: 5px 0;
+        line-height: 16px;
+    }
+
+.subbet_info {
+    font-size: 12px;
+    color: black;
+}
+
+.livetext {
+    color: rgb(253,91,6);
+}
+
+.vs {
+    color: white;
+}
+
+.subbet_info .lp {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.subbet_info .subbet_date {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    text-align: right;
+}
+
+.subbet-item .subbet_line {
+    border-bottom: 1px solid #ccc;
+    margin-top: 8px;
+}
+
+.subbet-item:last-child .subbet_line {
+    display: none;
+}
+
+.subbets .subbet-item:last-child {
+    padding-bottom: 5px;
+}
+
+.bet_footer {
+    line-height: 35px;
+    background-color: rgb(242,242,242);
+    font-size: 12px;
+}
+
+    .bet_footer span {
+    }
+
+    .bet_footer .name {
+        text-align: center;
+    }
+
+    .bet_footer .backvalue {
+        text-align: right;
+        padding-right: 5px;
+    }
+
+    .bet_footer .betv, .bet_footer .name, .bet_footer .backvalue {
+    }
+
+    .bet_footer .betv {
+        width: 33%;
+        text-indent: 5px;
+    }
+
+    .bet_footer .name {
+        width: 33%;
+    }
+
+    .bet_footer .backvalue {
+        width: 32%;
+    }
+    
+    .pubicon{
+    	width: 30px;
+	    height: 16px;
+	    background-image: url(../image/publish.png);
+	    background-repeat: no-repeat;
+	    background-size: 52%;
+	    background-position: right; 
+    }

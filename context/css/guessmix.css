@@ -1,0 +1,177 @@
+.mix {
+}
+
+    .mix .item .title {
+        display: block;
+        overflow: hidden;
+        line-height: 3.5em;
+        background-color: #e2e3e7;
+        border-bottom: solid 1px #cccccc;
+    }
+
+        .mix .item .title .league {
+            display: block;
+            float: left;
+            width: 130px;
+        }
+
+            .mix .item .title .league span:first-child {
+                display: block;
+                float: left;
+                width: 52px;
+                overflow: hidden;
+            }
+
+            .mix .item .title .league span:last-child {
+                display: block;
+                float: left;
+                width: 75px;
+                overflow: hidden;
+            }
+
+.time {
+    text-indent: 0 !important;
+}
+
+
+.mix .item .title .info {
+    display: block;
+    float: left;
+    width: calc(100% - 150px);
+    text-indent: 0px;
+}
+
+.mix .item .title .name {
+    display: block;
+    float: left;
+    width: 47%;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 375px) {
+    .mix .item .title .name {
+        width: 45%;
+    }
+}
+
+.mix .item .title .lname {
+    text-align: left;
+    text-indent: 5px;
+}
+
+.mix .item .title .rname {
+    text-align: right;
+}
+
+.mix .item .title .vstext {
+    display: block;
+    float: left;
+}
+
+.mix .item .title .up {
+    background-position: 1% 200%;
+}
+
+.mix .oddpane {
+}
+
+    .mix .oddpane .oddtitle, .match .oddtitle {
+        height: 2.9em;
+        line-height: 2.9em;
+        background-color: rgb(242,242,242);
+        border-bottom: solid 1px #CCCCCC;
+        /*border-top: solid 1px #CCCCCC;*/
+    }
+
+.oddtitle {
+    font-weight: bold;
+}
+
+    .oddtitle .gray {
+        font-weight: normal;
+    }
+
+.mix .oddpane .oddtitle span {
+    font-size: 12px;
+}
+
+.mix .oddpane .odditem, .match .odditem {
+    height: 3em;
+    line-height: 3em;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 320px) {
+    .mix .oddpane .odditem, .match .odditem {
+        font-size: 12px;
+    }
+}
+
+.mix .oddpane .odditem a, .match .odditem a {
+    float: left;
+}
+
+.mix .oddpane .odditem .oddbet, .match .odditem .oddbet {
+    /*float: right;*/
+    padding-right: 3px;
+    border-right: solid 1px #cccccc;
+    text-indent: 0px;
+    text-align: right;
+}
+
+
+    .match .odditem .oddbet.cs, .match .odditem .oddbet.tg {
+        padding-right: 5px;
+    }
+
+.mix .oddpane .odditem .bright {
+    border-right: none;
+}
+
+.betcount {
+    position: fixed;
+    bottom: 0px;
+    width: 9em;
+    margin-left: 35%;
+    text-align: center;
+    height: 2.9em;
+    line-height: 2.9em;
+    background: #ffffff;
+    border: solid 1px #cccccc;
+    border-bottom-width: 0px;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+    .betcount span {
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+        line-height: 2em;
+        border-radius: 50%;
+        background-color: #3a66b3;
+    }
+
+    .betcount:after {
+        content: "";
+        position: absolute;
+        left: 4.3em;
+        top: -0.4em;
+        width: 0.5em;
+        height: 0.5em;
+        background-color: #ffffff;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        border-left: solid 1px #CCCCCC;
+        border-top: solid 1px #CCCCCC;
+    }
+
+.mixsubwrp {
+    height: 100%;
+    overflow-y: scroll;
+}

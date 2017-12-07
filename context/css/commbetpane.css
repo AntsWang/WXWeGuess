@@ -1,0 +1,198 @@
+.betpane {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: #ffffff;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+    .betpane .title {
+        height: 36px;
+        line-height: 36px;
+        background-color: #e6e6e6;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+
+    .betpane .betmatchlist .inforight i {
+        display: block;
+        width: 1em;
+        height: 1em;
+        margin-right: 1em;
+        float: right;
+        margin-top: 1em;
+        /* margin-top: -webkit-calc(4vh - 1em);
+	 margin-top: -moz-calc(4vh - 1em);*/
+    }
+
+    .betpane .betmatchlist .inforight .close {
+        background-image: url(../image/jiantou.png);
+        background-repeat: no-repeat;
+        background-size: 500%;
+        background-position: 99% 7%;
+    }
+
+    .betpane .betmatchlist {
+        max-height: 300px;
+        overflow-y: scroll;
+        border-bottom: solid 1px #ccc;
+        padding-bottom: 1px;
+    }
+
+        .betpane .betmatchlist > div {
+            height: 60px;
+            border-bottom: solid 1px #eaeaea;
+            padding-top: 10px;
+        }
+
+            .betpane .betmatchlist > div:last-child {
+                height: 60px;
+                border-bottom: none;
+                padding-top: 10px;
+            }
+
+        .betpane .betmatchlist .infoleft {
+        }
+
+            .betpane .betmatchlist .infoleft > span {
+                display: block;
+                line-height: 2em;
+            }
+
+            .betpane .betmatchlist .infoleft .back {
+                font-weight: 500;
+            }
+
+        .betpane .betmatchlist .inforight {
+            display: inline-block;
+            width: 100%;
+            text-indent: 5px;
+        }
+
+            .betpane .betmatchlist .inforight span {
+                display: inline-block;
+                line-height: 2em;
+                width: 48.5%;
+            }
+
+.l1c1 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.l2c2 {
+    text-align: right;
+}
+
+.betpane .computed {
+    height: 2.4em;
+    line-height: 2.4em;
+    text-indent: 10px;
+}
+
+    .betpane .computed .totalback {
+        display: block;
+        float: right;
+        margin-right: 1em;
+    }
+
+.betpane .moneyitem {
+    height: 2.5em;
+}
+
+    .betpane .moneyitem .money {
+        height: 2em;
+        border-radius: 10px;
+        border-style: none;
+        border: solid 1px #cccccc;
+        width: 70%;
+        margin-left: 12px;
+        text-align: center;
+        font-size: 1em;
+    }
+
+        .betpane .moneyitem .money:focus {
+            border-radius: 1em;
+        }
+
+    .betpane .moneyitem .white {
+        display: inline-block;
+        height: 28px;
+        line-height: 28px;
+        background-color: #ff5b06;
+        text-align: center;
+        width: 15%;
+        border-radius: 10px;
+        font-size: 1.2em;
+        float: right;
+        margin-right: 12px;
+    }
+
+.betpane .fastBetBtn {
+    height: 2.2em;
+    line-height: 2em;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+    .betpane .fastBetBtn a {
+        display: block;
+        float: left;
+        width: 15%;
+        margin-left: 3.9%;
+        text-align: center;
+        border: solid 1px #CCCCCC;
+        border-radius: 10px;
+        font-size: 1.2em;
+    }
+
+        .betpane .fastBetBtn a:first-child {
+            margin-left: 12px;
+        }
+
+.betpane .maxlimit {
+    display: block;
+    float: right;
+    margin-right: 1em;
+}
+
+.odds i, .betpane .betmatchlist .infoleft i.arrow, .odditem i {
+    display: inline-block;
+    width: 6px;
+    background-image: url(../image/icon.png);
+    background-repeat: no-repeat;
+    background-size: 6000% 2500%;
+    vertical-align: text-top;
+}
+
+    .odditem i.oddup {
+        margin-top: -1px;
+    }
+
+    .odditem i.odddown {
+        margin-top: -1px;
+    }
+
+.odditem i, .odds i {
+    height: 1em !important;
+}
+
+.betpane .betmatchlist .infoleft i {
+}
+
+.odds .oddup, .betpane .betmatchlist .infoleft .oddup, .odditem .oddup {
+    background-position: 4.2% 1%;
+}
+
+.betpane .betmatchlist .infoleft .oddup {
+    margin-left: 0.5em;
+}
+
+.odds .odddown, .betpane .betmatchlist .infoleft .odddown, .odditem .odddown {
+    background-position: 1.6% 1%;
+}
+
+.event {
+    font-size: 14px;
+}

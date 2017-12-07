@@ -1,0 +1,223 @@
+.live {
+}
+
+    .live .item {
+        width: 100%;
+        /*height: 9.4em;*/
+    }
+
+    .live .title {
+        border: solid 1px #cccccc;
+        border-top-color: #efeded;
+        background-color: #f7f7f7;
+        border-left: none;
+        border-right: none;
+    }
+
+        .live .title span {
+            display: block;
+            line-height: 2.9em;
+            float: left;
+        }
+
+    .live .pane .block {
+        width: 100%;
+    }
+
+        .live .pane .block .wrapper {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+    .live .title .type {
+        text-align: center;
+    }
+
+    .live .pane .block, .live .pane .info {
+        display: block;
+    }
+
+.item .pane {
+    border-bottom: 1px solid #ccc !important;
+}
+
+.live .pane .info {
+    height: 73px;
+}
+
+.live .pane .odds {
+    float: left;
+    border-left: solid 1px #cccccc;
+}
+
+
+@media only screen and (min-width: 330px) {
+    .live .pane .odds {
+        font-size: 14px;
+    }
+}
+
+.live .pane .info, .live .pane .odds:last-child {
+    float: left;
+    border-right: none;
+}
+
+.live .pane .info, .live .title span:first-child {
+    width: 40%;
+}
+
+.live .pane .odds, .live .title .type {
+    width: calc(30% - 1px);
+}
+
+.live .pane .info:first-child {
+}
+
+.info .line1, .info .line3 {
+    height: 35%;
+    vertical-align: middle;
+}
+
+.info .line2 {
+    height: 30%;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.info .line1 {
+    line-height: 28px;
+    width: 100%;
+}
+
+.info .score {
+    line-height: 24px;
+}
+
+.zero {
+    display: none !important;
+}
+
+.info .name {
+    font-weight: 600;
+    display: inline-block;
+    max-width: 70%;
+    line-height: 28px;
+}
+
+.mix .info .name {
+    line-height: inherit;
+}
+
+.info .line3 {
+    width: 100%;
+}
+
+.info .line1, .info .line3 {
+    font-weight: 600 !important;
+}
+
+.info .line2 .livetime {
+    line-height: 22px;
+    margin-left: 4px;
+    color: #ff5b06;
+}
+
+.info .line2 .rightarrow {
+    background: url("../image/wr.png") no-repeat;
+    width: 16px;
+    height: 22px;
+    background-position: 0px 4px;
+    background-size: 100%;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+
+.info .line3 .score {
+    line-height: 26px;
+}
+
+.info .line1 .score {
+    line-height: 26px;
+    height: 24px;
+}
+
+.live .pane .card {
+    background-color: #d80204;
+    color: #fff;
+    margin-left: 3px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-top: 7px;
+    display: inline-block;
+    height: 13px;
+    width: 12px;
+    vertical-align: top;
+    text-indent: 2px;
+}
+
+.line1 .card {
+    line-height: 13px;
+}
+
+.line3 .card {
+    line-height: 13px;
+}
+
+.live .pane .guesserCount {
+    float: right;
+    line-height: 20px;
+    height: 20px;
+    margin-top: -3px;
+}
+
+.guesserCount .person {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: -165px 0px;
+    background-size: 1600%;
+}
+
+.guesserCount .count {
+    line-height: 22px !important;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.live .pane .score {
+    color: #30a00d;
+    display: inline-block;
+    float: right;
+    margin-right: 17px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.live .pane .odds a {
+    line-height: 36px;
+    height: 36px;
+}
+
+    .live .pane .odds a:first-child {
+        border-bottom: solid 1px #cccccc;
+    }
+
+.live .pane .hdp {
+    width: 50%;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+.live .pane .odd {
+    display: block;
+    float: right;
+    max-width: 50%;
+}

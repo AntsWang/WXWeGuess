@@ -1,0 +1,92 @@
+.ranking {
+    background-color: rgb(240,239,245);
+    width: 100%;
+    height: 100%;
+}
+
+#ranklist-tabs {
+    border-bottom: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+.rankhead {
+    height: 82px;
+}
+
+.ranking .title {
+    font-size: 14px;
+    overflow: hidden;
+    border-bottom: solid 1px #CCCCCC;
+    background: rgb(247,247,247);
+    height: 36px;
+    line-height: 36px;
+}
+
+.rankpane {
+    height: 40px;
+    line-height: 40px;
+}
+
+.ranking .wrapper {
+    height: calc(100% - 82px);
+    overflow-y: scroll;
+}
+
+.ranking .rank {
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.ranking .headname {
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.ranking .nickname {
+    width: calc(57% - 40px);
+    display: inline-block;
+}
+
+.ranking .winodd {
+    width: 23%;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.ranking .headimg {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #cccccc;
+}
+
+.ranking .odditem {
+    background-color: #f7f7f7;
+}
+
+.ranking .evenitem {
+    background-color: #ffffff;
+}
+
+.ranking .rankpane {
+    overflow: hidden;
+    border-bottom: solid 1px #e0e0e0;
+}
+
+.ranking .blue {
+    background-color: rgb(247, 250, 255);
+}
+
+.rank_tips {
+    margin-top: 10px;
+    text-indent: 10px;
+    text-align: left;
+    display: inline-block;
+}

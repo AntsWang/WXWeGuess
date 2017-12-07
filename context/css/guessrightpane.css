@@ -1,0 +1,96 @@
+.rightpane {
+    width: 69%;
+    height: 100%;
+    overflow-y: scroll;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -3px;
+}
+
+    .rightpane .right {
+        float: right;
+    }
+
+    .rightpane .matchitem {
+        overflow-y: scroll;
+        min-height: 100%;
+    }
+
+        .rightpane .matchitem .item {
+            height: 70px;
+            margin: 5px 5px;
+            border-bottom: solid 1px #eaeaea;
+        }
+
+            .rightpane .matchitem .item .left {
+                margin-left: 1em;
+            }
+
+    .rightpane .right .stage {
+        display: block;
+        height: 1.5em;
+        text-align: right;
+        line-height: 1.5em;
+        margin-right: 16px;
+    }
+
+    .rightpane .right .guesser {
+        line-height: 3em;
+    }
+
+        .rightpane .right .guesser i.person {
+            float: left;
+            width: 20px;
+            height: 20px;
+            margin-right: 4px;
+            margin-top: 0.45em;
+            margin-top: calc((3em - 20px)/2);
+            margin-top: -webkit-calc((3em - 20px)/2);
+            margin-top: -moz-calc((3em - 20px)/2);
+            background-position: -165px 0px;
+            background-size: 1600%;
+        }
+
+        .rightpane .right .guesser i.wpicon {
+            background: url(../image/wr.png) no-repeat;
+            float: right;
+            width: 16px;
+            height: 22px;
+            margin-top: 0.45em;
+            margin-top: calc((3em - 22px)/2);
+            margin-top: -webkit-calc((3em - 22px)/2);
+            margin-top: -moz-calc((3em - 22px)/2);
+            background-position: 0px 5px;
+            background-size: 100%;
+        }
+
+    .rightpane .left span, .rightpane .right span {
+        display: block;
+    }
+
+    .rightpane .left span {
+        line-height: 1.5em;
+    }
+
+        .rightpane .left span.time {
+            color: #808080;
+        }
+
+        .rightpane .left span.league {
+            color: #00b5b9;
+            margin-right: 3%;
+            max-width: 30%;
+        }
+
+    .rightpane .left .name, .live .pane .name {
+        font-size: 14px;
+        color: #333;
+        font-weight: 500;
+    }
+
+.guesser .count {
+    display: inline-block;
+    line-height: 3em;
+    margin-top: 3px;
+    /*vertical-align: middle;*/
+}

@@ -1,0 +1,159 @@
+.no-data-tips {
+    text-align: center;
+    margin-top: 200px;
+    display: inline-block;
+    width: 100%;
+}
+
+.inrightpane {
+    margin-left: -22%;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+/*去除ios默认的一些效果*/
+a {
+    -webikt-tap-highlight-color: rgba(0,0,0,0); /* 点击高亮的颜色*/
+}
+
+input, textarea {
+    outline: none;
+    -webkit-appearance: none; /*输入框阴影*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* 点击高亮的颜色*/
+}
+
+
+@font-face {
+    font-family: "Ionicons";
+    src: url("/fonts/ionicons.eot?v=2.0.1");
+    src: url("/fonts/ionicons.eot?v=2.0.1#iefix") format("embedded-opentype"), url("../fonts/ionicons.ttf?v=2.0.1") format("truetype"), url("../fonts/ionicons.woff?v=2.0.1") format("woff"), url("../fonts/ionicons.woff") format("woff"), url("../fonts/ionicons.svg?v=2.0.1#Ionicons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.rule_cont {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.rule_iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+body, #sport {
+    height: 100%;
+}
+
+.fullh {
+    height: 100%;
+}
+
+.debug {
+    position: fixed;
+    top: 10px;
+    height: 85%;
+    overflow: scroll;
+    width: 95%;
+    display: none;
+    background-color: rgba(200,200,200,0.65);
+    z-index: 999999999;
+    color: #00f;
+}
+
+#pulldowntip {
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    display: none;
+}
+
+.debug.active {
+    display: block !important;
+}
+
+.debug .close {
+    float: right;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: gray;
+    top: 10px;
+    position: fixed;
+    right: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: red;
+}
+
+.debug_c p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-indent: 5px;
+}
+
+#cmdline {
+    display: inline-block;
+    position: fixed;
+    bottom: 1px;
+    width: 95%;
+    z-index: 99999999999;
+}
+
+    #cmdline #ipt {
+        width: 95%;
+        height: 40px;
+    }
+
+    #cmdline button {
+        height: 30px;
+    }
+
+.touch_scroll {
+    -webkit-overflow-scrolling: touch;
+}
+
+.toastcont {
+}
+
+.toast {
+    display: inline-block;
+    position: fixed;
+    bottom: 35%;
+    width: 95%;
+    min-height: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin-left: 2.5%;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 2px 3px 3px 0 #8e8e8e;
+    font-size: 14px;
+    border: 1px solid #5a5a5a;
+    font-weight: 500;
+}
+
+.guesser .person, .guesser .count {
+    display: none !important;
+}
+
+.guesserCount .person, .guesserCount .count {
+    display: none !important;
+}
+
+
+.xscroll {
+    -webkit-overflow-scrolling: touch;
+}
+
+
+#global_comp {
+    height: 0;
+}

@@ -1,0 +1,22 @@
+.successpub .matchlist {
+    height: 150px;
+    border-bottom: none;
+}
+
+.successpub .messagetitle {
+    color: #3A66B3;
+}
+
+.successpub .matchlist .bgimg {
+    height: 120px;
+    background: url(../image/success.png) no-repeat center center;
+    background-size: 25%;
+    max-width: 450px;
+    margin: auto;
+}
+
+.successpub .matchlist .message {
+    height: 30px;
+    line-height: 20px;
+    text-align: center;
+}

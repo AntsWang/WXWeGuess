@@ -1,0 +1,56 @@
+.conpub .publishfooter a:last-child {
+    color: #3A66B3;
+}
+.conpub .successpane .matchlist{
+	max-height: 250px;
+	overflow: hidden;
+}
+.conpub .successpane .matchlist .rowwraper{
+	max-height: 200px;
+	overflow: scroll;
+	border-radius: 10px 10px 0 0;
+}
+.conpub .successpane .matchlist .rowwraper .row1{
+	height: 40px;
+	padding: 10px 10px 0 10px;
+	display: flex;
+	font-size: 14px;
+	border-bottom: 1px solid #ccc;
+}
+
+.conpub .successpane .matchlist .rowwraper .row1:last-child{
+	border-bottom: none;
+}
+.conpub .successpane .matchlist .rowwraper .row1:nth-child(even){
+	background: #eaeaea;
+}
+.conpub .successpane .matchlist .row1 div{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	flex: 1;
+	color: #000;
+}
+.conpub .successpane .matchlist .row1 div.vsa{
+	color: #808080;
+}
+.conpub .successpane .matchlist .row1 .time span{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	color:#808080;
+}
+.conpub .successpane .matchlist .row2{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color:#FF5B06;
+	font-size:14px;
+}
+.publishfooter a{
+	font-size: 14px;
+}
+.messagetitle{
+	font-size: 14px;
+}

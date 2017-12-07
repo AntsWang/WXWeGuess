@@ -1,0 +1,13 @@
+.messagepub .matchlist{
+	height: 80px;
+	text-align: center;
+	color:#FF5B06;
+	border-bottom: none;
+	font-size: 14px;
+	padding-top: 40px;
+	
+}
+.messagepub .messagetitle{
+    color:#3A66B3;
+    
+}
